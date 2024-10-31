@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign</title>
+    <link rel="stylesheet" href="/css/sign.css">
+</head>
+<body>
+    <div class="container">
+        <header><a href="index.html" class="homepage">Home</a></header>
+        <main id="main">
+            <section id="iden"><h2 id="sp">SignPage</h2>
+            <p>이전 페이지를 이동 하시려면 왼쪽 상단의 Home 버튼을 눌러주세요</p></section>
+            <sectiona id="signmain">
+                <p>아이디</p> <p><input type="text" maxlength="20" placeholder="아이디를 입력하세요" name="userid"></p>
+                <p>비밀번호</p> <p><input type="password" maxlength="20" placeholder="비밀번호를 입력하세요" name="userpw"></p>
+                <p>비밀번호 확인</p> <p><input type="password" maxlength="20" placeholder="비밀번호를 다시 입력하세요" name="re_userpw"></p>
+                <p>이름</p> <p><input type="text" maxlength="20" placeholder="이름을 입력하세요" name="username"></p>
+                <p>전화번호</p> <p><input type="text" maxlength="13" placeholder="전화번호를 입력하세요" name="ph"></p>
+                <p>이메일주소</p> <p>&nbsp;<input type="text" maxlength="100" name="userEmail" class="Email_address">&nbsp;&nbsp;@&nbsp;&nbsp;
+                    <select class="Email_address">
+                        <option value="네이버">naver.com</option>
+                        <option value="다음">daum.com</option>
+                        <option value="구글">gmail.com</option>
+                </select></p>
+            </sectiona>
+            <section>
+                <form method="post" id="sign-form">
+                    <p id="signbtn"><button>회원가입하기</button></p>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
